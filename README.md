@@ -1,0 +1,42 @@
+# Engineering Notes
+
+How I work and how I solve problems — told through case studies.
+
+I am a cost-planning engineer at an automotive-parts manufacturer who builds internal tools
+for my own department, plus personal projects on the side. The company code, data and names
+are private, so these notes describe **the problem, the thinking and the fix** with all
+customer, part, price and system details removed. Where a number is shown it comes from tests
+or repo history, not from company data.
+
+Start with [how-i-work.md](how-i-work.md), then pick a case.
+
+## Work (internal tools, details anonymised)
+
+| # | Case | What it shows |
+|---|---|---|
+| 01 | [Replacing a master Excel workbook with a web app](case-studies/work/01-excel-master-to-web-app.md) | Translating spreadsheet logic into a system without breaking trust in the numbers |
+| 02 | [Multi-department approval workflow](case-studies/work/02-approval-workflow.md) | Roles, SLA clocks, idempotent notifications, "no self-approval" |
+| 03 | [Checking ERP data against engineering documents](case-studies/work/03-erp-vs-document-checker.md) | OCR you can trust: say "manual" instead of guessing |
+| 04 | [A SQLite file on a shared drive](case-studies/work/04-sqlite-on-shared-drive.md) | Failure-mode thinking: SMB locks, corruption vs lost write |
+| 05 | [Consolidating five forecast sources](case-studies/work/05-forecast-consolidation.md) | Running a requirements interview, normalising dirty keys |
+| 06 | [Local-only meeting transcription](case-studies/work/06-local-meeting-transcription.md) | Confidentiality by design, resource guards after OOM |
+| 07 | [Semantic search over department documents](case-studies/work/07-document-search.md) | Honest evaluation: what retrieval can and cannot be trusted for |
+| 08 | [Automating a mail client that has no API](case-studies/work/08-legacy-mail-automation.md) | COM quirks, root-cause write-up |
+| 09 | [Delivering software under a copy-file policy](case-studies/work/09-delivery-under-policy.md) | Working inside constraints, protecting production data |
+| 10 | [Monthly reporting automation](case-studies/work/10-monthly-reporting.md) | Repetitive spreadsheet work to a one-click tool |
+
+## Personal projects
+
+| # | Case | What it shows |
+|---|---|---|
+| 11 | [JLPT Word Map](case-studies/personal/11-jlpt-word-map.md) | Large-data UI (218k words), copyright model, honest "what was verified" doc |
+| 12 | [Restaurant ordering app](case-studies/personal/12-restaurant-ordering-app.md) | Idempotent orders and row-level locking in SQL |
+| 13 | [Evaluating trading strategies without fooling myself](case-studies/personal/13-trading-evaluation.md) | Risk-adjusted metrics, outlier tests, live vs backtest |
+| 14 | [Tooling for working with AI agents](case-studies/personal/14-ai-workflow-tooling.md) | Token meter, skill registry, delegation by model size |
+| 15 | [Small tools](case-studies/personal/15-small-tools.md) | Breadth: budget app, used-car DMS, batch printer, browser bridge |
+| 16 | [Dev-environment incidents](case-studies/personal/16-dev-environment-incidents.md) | WSL daemon lifetime, DNS vs API outage, git recovery |
+
+## Conventions
+
+Every case follows the same template: **Context → Problem → Approach → Decision / trade-off →
+Result → What I would do differently.**

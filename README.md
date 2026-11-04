@@ -25,6 +25,12 @@ Start with [how-i-work.md](how-i-work.md), then pick a case.
 | 09 | [Delivering software under a copy-file policy](case-studies/work/09-delivery-under-policy.md) | Working inside constraints, protecting production data |
 | 10 | [Monthly reporting automation](case-studies/work/10-monthly-reporting.md) | Repetitive spreadsheet work to a one-click tool |
 | 17 | [A check-in workbook that survives changing seating plans](case-studies/work/17-event-registration-workbook.md) | One place to key each fact, derived views, check-in data kept apart from the plan |
+| 18 | [An AI skill that audits a quotation package](case-studies/work/18-quotation-package-audit-skill.md) | Verdict + evidence, false-positive list built from corrections, "not readable" over guessing |
+| 19 | [Mail skills with guardrails](case-studies/work/19-mail-skills-with-guardrails.md) | Who may press send: dry-run, one send per approval, self-CC |
+| 20 | [Analysing gate-swipe records](case-studies/work/20-attendance-analyzer.md) | Glossary first, then two independent implementations |
+| 21 | [A generated macro workbook Excel refused to open](case-studies/work/21-program-built-macro-workbook-rca.md) | RCA: errors hide other errors; let the owning app write its own file |
+| 22 | [The small-jobs folder](case-studies/work/22-little-jobs-digest.md) | Pattern across one-off requests: source priority, raw vs cleaned, local transparency |
+| 23 | [Skills for recurring work](case-studies/work/23-work-skills.md) | Delivery, KPI, minutes, controlled-form PDFs as checklists with hard rules |
 
 ## Personal projects
 
@@ -36,6 +42,7 @@ Start with [how-i-work.md](how-i-work.md), then pick a case.
 | 14 | [Tooling for working with AI agents](case-studies/personal/14-ai-workflow-tooling.md) | Token meter, skill registry, delegation by model size |
 | 15 | [Small tools](case-studies/personal/15-small-tools.md) | Breadth: budget app, used-car DMS, batch printer, browser bridge |
 | 16 | [Dev-environment incidents](case-studies/personal/16-dev-environment-incidents.md) | WSL daemon lifetime, DNS vs API outage, git recovery |
+| 24 | [Catalogue of skills and agents](case-studies/personal/24-skills-and-agents-catalog.md) | Every skill kept, grouped by purpose; no agent approves its own work |
 
 ## Conventions
 

@@ -24,6 +24,7 @@ Start with [how-i-work.md](how-i-work.md), then pick a case.
 | 08 | [Automating a mail client that has no API](case-studies/work/08-legacy-mail-automation.md) | COM quirks, root-cause write-up |
 | 09 | [Delivering software under a copy-file policy](case-studies/work/09-delivery-under-policy.md) | Working inside constraints, protecting production data |
 | 10 | [Monthly reporting automation](case-studies/work/10-monthly-reporting.md) | Repetitive spreadsheet work to a one-click tool |
+| 17 | [A check-in workbook that survives changing seating plans](case-studies/work/17-event-registration-workbook.md) | One place to key each fact, derived views, check-in data kept apart from the plan |
 
 ## Personal projects
 

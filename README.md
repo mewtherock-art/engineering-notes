@@ -31,6 +31,7 @@ Start with [how-i-work.md](how-i-work.md), then pick a case.
 | 21 | [A generated macro workbook Excel refused to open](case-studies/work/21-program-built-macro-workbook-rca.md) | RCA: errors hide other errors; let the owning app write its own file |
 | 22 | [The small-jobs folder](case-studies/work/22-little-jobs-digest.md) | Pattern across one-off requests: source priority, raw vs cleaned, local transparency |
 | 23 | [Skills for recurring work](case-studies/work/23-work-skills.md) | Delivery, KPI, minutes, controlled-form PDFs as checklists with hard rules |
+| 25 | [An internal app that could not reach its database](case-studies/work/25-database-outage-credential-rca.md) | Two faults, one symptom: read the config loader, back up before force-kill, test tool behaviour before claiming it |
 
 ## Personal projects
 
